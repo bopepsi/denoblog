@@ -17,6 +17,9 @@ Need an ordered list with fast insert/ removals at the start and end? Use a link
 
 ## What is a linked list? 
 A data structure that contains a head, tail and length property.<br>
+
+![Singly linked list](https://github.com/bopepsi/denoblog/blob/main/posts/sll.png?raw=true)
+
 A linked list consists of a bunch of nodes. A node can store any type of data, the node stored is ordered, but with no index pointing to each node. It also references to the next node. Or if it’s at the very end, there is no next node, it just references to null.<br>
 
 The head is the beginning of the linked list, the tail is the end. We don’t keep track of every single item in the middle, we just keep track of the head, and from the head we can figure out next one, and next one until the end. We also keep track of the length to make thing easier.<br>
@@ -26,6 +29,7 @@ Remember there is no index for each node, we cannot access the node by index, if
 In a singly linked list, each node is only connected one directionally to the next node.
 In a doubly linked list, each node also have a connection to its previous node. However, it takes up more memory considering the extra pointer stored in nodes.
 
+![Doubly linked list](https://github.com/bopepsi/denoblog/blob/main/posts/dll.png?raw=true)
 #### Compare with arrays
 - Lists:
 	- Do not have indexes
@@ -47,6 +51,4 @@ The idea of a linked list structure that consists of nodes is the foundation for
 - Searching - O(N)
 - Access - O(N)
 
-<img href ="./sll.png"/>
-<img href ="./dll.png"/>
 <a href="https://github.com/bopepsi/linked-list">Singly linked list class</a>
